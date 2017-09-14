@@ -20,7 +20,6 @@ public class apiDemo {
     private String url;
     private Response response;
     private ValidatableResponse json;
-    public int length;
 
     @Given("^the apis are up and running for \"([^\"]*)\"$")
     public void the_apis_are_up_and_running_for(String url) throws Throwable {
